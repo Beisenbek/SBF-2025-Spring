@@ -10,8 +10,4 @@ public class PrinterConfig {
         return new My3DPrinter();
     }
 
-    @Bean
-    Printer getPrinter() {
-        return new Printer(new My3DPrinter());
-    }
 }
